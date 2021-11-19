@@ -1,0 +1,55 @@
+Regular:
+  prefix: '@'
+  sound: LEVEL_UP
+  titles:
+    enabled: true
+    title: '&a%player%'
+    subtitle: '&dhas mentioned &byou!'
+  actionbar:
+    enabled: true
+    text: '&a%player% &dhas mentioned &byou!'
+  particles:
+    enabled: true
+    particle-type: DRIP_WATER
+  cooldown:
+    enabled: true
+    time: 5
+  replacement:
+    enabled: true
+    text: '&a@&l%player%&r'
+  message:
+    enabled: true
+    text: '&a%player% &dhas mentioned &byou!'
+Everyone:
+  prefix: '@'
+  sound: LEVEL_UP
+  titles:
+    enabled: true
+    title: '&a%player%'
+    subtitle: '&dhas mentioned &beveryone!'
+  actionbar:
+    enabled: true
+    text: '&a%player% &dhas mentioned &beveryone!'
+  particles:
+    enabled: true
+    particle-type: DRIP_WATER
+  cooldown:
+    enabled: true
+    time: 5
+  replacement:
+    enabled: true
+    text: '&a@everyone&r'
+  message:
+    enabled: true
+    text: '&a%player% &dhas mentioned &beveryone!'
+useOldWay: false
+needPermissionToMention: false
+needsPrefix: false
+updateNotifications: true
+hooks:
+  Essentials: true
+  FactionChat: true
+  mcMMO: true
+  SuperVanish: true
+  PremiumVanish: true
+  Marriage: true

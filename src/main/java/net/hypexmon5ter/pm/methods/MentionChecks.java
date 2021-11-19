@@ -2,7 +2,6 @@ package net.hypexmon5ter.pm.methods;
 
 import com.earth2me.essentials.Essentials;
 import com.gmail.nossr50.api.ChatAPI;
-import com.lenis0012.bukkit.marriage2.internal.MarriagePlugin;
 import de.myzelyam.api.vanish.VanishAPI;
 import net.hypexmon5ter.pm.PlayerMention;
 import nz.co.lolnet.james137137.FactionChat.API.FactionChatAPI;
@@ -40,13 +39,15 @@ public class MentionChecks {
         } else {
             notInMcmmoChat = true;
         }
-        if (PM.marriageHook) {
+        // **************** ADD MARRIAGEMASTER HOOK ***************************
+        /*if (PM.marriageHook) {
             if (!(MarriagePlugin.getCore().getMPlayer(mentioner).isInChat())) {
                 notInMarriageChat = true;
             }
         } else {
             notInMarriageChat = true;
-        }
+        }*/
+        
         /*if (PM.needsPermission) {
             if (mentioner.hasPermission("pm.use")) {
                 canMentionHasPerm = true;
